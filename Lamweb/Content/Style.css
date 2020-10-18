@@ -23,14 +23,14 @@
 }
 #menutop a{
     display:block; float:left;height:26px;
-    padding-top:9px; width:100px;
+    padding-top:1px; width:100px;
     text-align:center; background-color:#e9e1cf;
     font-weight:bold; margin-left:1px;
     text-decoration:none; color:#000;
 }
 #menutop a:hover{
-    background-color:#ed8d00;
-    color:#FFF;
+    background-color:#DD4B39;
+    color:#c6c6c6;
 }
 
 #content{
