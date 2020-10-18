@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DangNhap</h2>
+
+<link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+
+<div id="login-box">
+    <div class="left">
+        <h1>Sign up</h1>
+
+        <input type="text" name="username" placeholder="Tài Khoản" />
+        <input type="text" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Mật khẩu" />
+        <input type="password" name="password2" placeholder="Vui lòng nhập mật khẩu" />
+
+        <input type="submit" name="signup_submit" value="Đăng ký" />
+    </div>
+
+    <div class="right">
+        <span class="loginwith">Sign in with<br />social network</span>
+
+        <button class="social-signin facebook">Log in with facebook</button>
+        <button class="social-signin twitter">Log in with Twitter</button>
+        <button class="social-signin google">Log in with Google+</button>
+    </div>
+    <div class="or">Hoặc</div>
+</div>
