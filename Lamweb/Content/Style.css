@@ -97,8 +97,8 @@
     color:#F00;
 }
 .item .productDetail, .item .productBigImg{
-    width:80px; float:left; height:25px;
-    padding-top:10px; display:block;
+    width:85px; float:right; height:31px;
+    padding-top:11px; display:block;
     text-decoration:none;
 }
 .item .productDetail{
@@ -115,7 +115,7 @@
     margin-top:10px;
     border-top:2px #000000 solid;
     height:70px;
-    background-color:#00ff90;
+    background-color:#808080;
     padding:2px 10px;
 }
 #footer a{
