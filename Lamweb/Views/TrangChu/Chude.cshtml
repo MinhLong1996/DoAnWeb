@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Lamweb.Models.CHUDE>
+<p class="lead">Danh mục sản phẩm</p>
+<div class="list-group">
+    <div id="left">
+        <div class="module">
+            @foreach (var item in Model)
+            {
+                <a href="@Url.Action("sptheochude" , "TrangChu", new { id = item.MaCD }) " class="list-group-item">
+                    @item.TenChuDe
+                </a>
+            }
+
+        </div>
+    </div>
+</div>

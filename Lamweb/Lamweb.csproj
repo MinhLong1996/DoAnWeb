@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -77,8 +78,17 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -196,13 +206,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NguoiDungController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Giohang.cs" />
+    <Compile Include="Models\dbQLBanhang.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbQLBanhang.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -211,6 +229,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="Content\Style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -229,6 +248,7 @@
     <Content Include="imagers\2.jpg" />
     <Content Include="imagers\3.jpg" />
     <Content Include="imagers\3.png" />
+    <Content Include="imagers\300.png" />
     <Content Include="imagers\4.jpg" />
     <Content Include="imagers\5.jpg" />
     <Content Include="imagers\6.jpg" />
@@ -238,10 +258,15 @@
     <Content Include="imagers\8.png" />
     <Content Include="imagers\9.jpg" />
     <Content Include="imagers\Conmeo.gif" />
+    <Content Include="imagers\dep.jpg" />
     <Content Include="imagers\dienmayxanh.gif" />
     <Content Include="imagers\extra-box-bg.jpg" />
+    <Content Include="imagers\giaynam.jpg" />
+    <Content Include="imagers\giaynam1.jpeg" />
     <Content Include="imagers\google-noi-ve-inova.gif" />
+    <Content Include="imagers\gucci.jpg" />
     <Content Include="imagers\hieu-qua.gif" />
+    <Content Include="imagers\hinhnensandal.jpg" />
     <Content Include="imagers\logo.jpg" />
     <Content Include="imagers\logo1.jpg" />
     <Content Include="imagers\logo2.jpg" />
@@ -249,25 +274,22 @@
     <Content Include="imagers\module-bg.jpg" />
     <Content Include="imagers\module-bg1.jpg" />
     <Content Include="imagers\module-bg2.jpg" />
+    <Content Include="imagers\nam1.jpg" />
+    <Content Include="imagers\nam2.jpg" />
+    <Content Include="imagers\nam4.jpg" />
+    <Content Include="imagers\Sandal1.jpg" />
+    <Content Include="imagers\Sandal10.jpg" />
+    <Content Include="imagers\Sandal12.jpg" />
+    <Content Include="imagers\Sandal3.jpg" />
+    <Content Include="imagers\Sandal4.jpg" />
+    <Content Include="imagers\Sandal5.jpg" />
+    <Content Include="imagers\Sandal6.jpg" />
+    <Content Include="imagers\Sandal7.jpg" />
+    <Content Include="imagers\Sandal8.jpg" />
+    <Content Include="imagers\Sandal9.jpg" />
     <Content Include="imagers\show_image_in_imgtag.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_002.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_003.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_004.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_005.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_006.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_007.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_008.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_009.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_010.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_011.jpeg" />
-    <Content Include="imagers\show_image_in_imgtag_012.jpeg" />
-    <Content Include="imagers\slide1_713_384.jpg" />
-    <Content Include="imagers\slide2_713_384.jpg" />
-    <Content Include="imagers\slide3_713_384.jpg" />
-    <Content Include="imagers\slide4_713_384.jpg" />
-    <Content Include="imagers\slide5_713_384.jpg" />
-    <Content Include="imagers\slide6_713_384.jpg" />
     <Content Include="imagers\slide7_713_384.jpg" />
+    <Content Include="imagers\slider-image4.jpg" />
     <Content Include="imagers\son.jpg" />
     <Content Include="imagers\vall.png" />
     <Content Include="imagers\vlmonth.png" />
@@ -282,6 +304,11 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Models\dbQLBanhang.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbQLBanhang.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -330,14 +357,22 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Chitiet.cshtml" />
-    <Content Include="Views\TrangChu\Index.cshtml" />
     <Content Include="Views\TrangChu\Chitiet.cshtml" />
     <Content Include="Views\TrangChu\Lienhe.cshtml" />
     <Content Include="Views\TrangChu\Quangcao.cshtml" />
     <Content Include="Views\TrangChu\DangNhap.cshtml" />
+    <Content Include="Views\GioHang\GioHang.cshtml" />
+    <Content Include="Views\GioHang\Giohangpartial.cshtml" />
+    <Content Include="Views\GioHang\Dathang.cshtml" />
+    <Content Include="Views\GioHang\Xacnhandonhang.cshtml" />
+    <Content Include="Views\Shared\_LayoutUser.cshtml" />
+    <Content Include="Views\TrangChu\Index.cshtml" />
+    <Content Include="Views\TrangChu\Chude.cshtml" />
+    <Content Include="Views\TrangChu\sptheochude.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\NguoiDung\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -346,6 +381,14 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\dbQLBanhang.dbml.layout">
+      <DependentUpon>dbQLBanhang.dbml</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

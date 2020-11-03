@@ -84,7 +84,7 @@
         background-image: url('../imagers/module-bg2.jpg');
         background-position:left top; padding-left:45px;
         font-size:14px;
-        width:668px;
+        width:712px;
 }
 .item{
     width:215px; text-align:center;
@@ -112,7 +112,7 @@
     font-weight:bold; 
 }
 #footer{
-    margin-top:10px;
+    margin-top:20px;
     border-top:2px #000000 solid;
     height:70px;
     background-color:#808080;

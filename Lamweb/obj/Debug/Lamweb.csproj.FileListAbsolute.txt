@@ -162,3 +162,177 @@ F:\ChangZhi\TMDienTu\Lamweb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\ChangZhi\TMDienTu\Lamweb\obj\Debug\Lamweb.csprojResolveAssemblyReference.cache
 F:\ChangZhi\TMDienTu\Lamweb\obj\Debug\Lamweb.dll
 F:\ChangZhi\TMDienTu\Lamweb\obj\Debug\Lamweb.pdb
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\ApplicationInsights.config
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\csc.exe
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\System.Collections.Immutable.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\System.Reflection.Metadata.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\vbc.exe
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\VBCSCompiler.exe
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\roslyn\VBCSCompiler.exe.config
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Lamweb.dll.config
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Lamweb.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Lamweb.pdb
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Antlr3.Runtime.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\EntityFramework.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\EntityFramework.SqlServer.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.Agent.Intercept.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.DependencyCollector.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.Web.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.WindowsServer.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.ApplicationInsights.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Google.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Web.Infrastructure.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Newtonsoft.Json.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Owin.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Helpers.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Mvc.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Optimization.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Razor.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Deployment.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Razor.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\WebGrease.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.DependencyCollector.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.Web.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.WindowsServer.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.ApplicationInsights.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Helpers.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Mvc.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Optimization.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.Razor.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Deployment.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Razor.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Antlr3.Runtime.pdb
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Newtonsoft.Json.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\EntityFramework.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\EntityFramework.SqlServer.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Google.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.csprojResolveAssemblyReference.cache
+D:\webbanhang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.pdb
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\PagedList.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\PagedList.Mvc.dll
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\PagedList.xml
+D:\webbanhang\DoAnWeb-master\Lamweb\bin\PagedList.Mvc.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\ApplicationInsights.config
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\csc.exe
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\System.Collections.Immutable.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\vbc.exe
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\VBCSCompiler.exe
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\roslyn\VBCSCompiler.exe.config
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Lamweb.dll.config
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Lamweb.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Lamweb.pdb
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Antlr3.Runtime.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\EntityFramework.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\EntityFramework.SqlServer.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.DependencyCollector.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.Web.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.WindowsServer.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.ApplicationInsights.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Google.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Web.Infrastructure.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Newtonsoft.Json.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Owin.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\PagedList.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\PagedList.Mvc.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Helpers.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Mvc.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Optimization.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Razor.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Deployment.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Razor.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\WebGrease.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.DependencyCollector.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.Web.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AI.WindowsServer.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.ApplicationInsights.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\PagedList.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\PagedList.Mvc.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Helpers.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Mvc.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Optimization.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.Razor.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Deployment.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\System.Web.WebPages.Razor.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Antlr3.Runtime.pdb
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Newtonsoft.Json.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\EntityFramework.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\EntityFramework.SqlServer.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Google.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.csprojAssemblyReference.cache
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.csproj.CoreCompileInputs.cache
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.csproj.CopyComplete
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.dll
+D:\Đồ án\LamWebBanHang\DoAnWeb-master\Lamweb\obj\Debug\Lamweb.pdb
