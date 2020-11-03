@@ -98,14 +98,14 @@ namespace Lamweb.Controllers
                 Admin ad = db.Admins.SingleOrDefault(n => n.UserAdmin == tendn && n.PassAdmin == matkhau);
                 if (kh != null)
                 {
-                    //ViewBag.Thongbao = "Chúc mwungf đăng nhập thành công";
+                    ViewBag.Thongbao = "Chúc mwungf đăng nhập thành công";
                     Session["Taikhoan"] = kh;
                     return RedirectToAction("Index", "TrangChu");
 
                 }
                 else if (ad != null)
                 {
-                    // ViewBag.Thongbao = "Chúc mừng đăng nhập thành công";
+                     ViewBag.Thongbao = "Chúc mừng đăng nhập thành công";
                     Session["Taikhoanadmin"] = ad;
                     return RedirectToAction("giay", "Admin");
                 }
