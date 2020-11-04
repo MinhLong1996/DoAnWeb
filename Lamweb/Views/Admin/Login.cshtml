@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+<link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+<h4 style="color:red; text-align:center">@ViewBag.Thongbao</h4>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div id="login-box">
+        <div class="left">
+            <h1>Đăng nhập</h1>
+
+            <tr style="height:40px">
+                <td>Tên đăng nhập</td>
+                <td>
+                    @Html.TextBox("TenDN")
+                    @ViewData["Loi1"]
+                </td>
+            </tr>
+            <tr style="height:40px">
+                <td>Mật Khẩu</td>
+                <td>
+                    @Html.Password("matkhau")
+                    @ViewData["Loi2"]
+                </td>
+            </tr>
+
+            <input type="submit" value="Đăng Nhập" />
+        </div>
+
+        <div class="right">
+            <span class="loginwith">Sign in with<br />social network</span>
+
+            <button class="social-signin facebook">Log in with facebook</button>
+            <button class="social-signin google">Log in with Google+</button>
+        </div>
+        <div class="or">Hoặc</div>
+    </div>
+}
+

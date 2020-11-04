@@ -419,8 +419,6 @@ D:\project\WebBanHang\Lamweb\bin\Microsoft.Owin.Security.OAuth.xml
 D:\project\WebBanHang\Lamweb\bin\Microsoft.Owin.Security.Google.xml
 D:\project\WebBanHang\Lamweb\bin\Microsoft.Owin.Security.Twitter.xml
 D:\project\WebBanHang\Lamweb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\project\WebBanHang\Lamweb\obj\Debug\Lamweb.csprojAssemblyReference.cache
-D:\project\WebBanHang\Lamweb\obj\Debug\Lamweb.csproj.CoreCompileInputs.cache
-D:\project\WebBanHang\Lamweb\obj\Debug\Lamweb.csproj.CopyComplete
 D:\project\WebBanHang\Lamweb\obj\Debug\Lamweb.dll
 D:\project\WebBanHang\Lamweb\obj\Debug\Lamweb.pdb
+D:\project\WebBanHang\Lamweb\obj\Debug\Lamweb.csprojResolveAssemblyReference.cache
