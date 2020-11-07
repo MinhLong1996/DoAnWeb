@@ -23,9 +23,6 @@
         <th>
             @Html.DisplayNameFor(model => model.First().Mota)
         </th>
-        @*<td>
-            <img src="@Url.Content("~/imagers/"+fỉ)" />
-        </td>*@
         <th>
             @Html.DisplayNameFor(model => model.First().Anhbia)
         </th>
@@ -37,14 +34,7 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.First().MaCD)
-        </th>
-
-        @*<td>
-            @Html.ActionLink("Edit","Edit",new { id= item.Magiay })
-            @Html.ActionLink("Delete", "Delete", new { id =item.Magiay })
-        </td>*@
-
-        
+        </th>      
     </tr>
     @foreach(var item  in Model)
     {
@@ -54,9 +44,9 @@
         <td>
             @Html.DisplayFor(modelItem => item.Mota)
         </td>
-        <td>
+        @*<td>
             <img src="@Url.Content("~/imagers/"+ item.Anhbia)" />
-        </td>
+        </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.Ngaycapnhat)
         </td>

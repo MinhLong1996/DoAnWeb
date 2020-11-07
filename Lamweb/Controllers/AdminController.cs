@@ -23,7 +23,7 @@ namespace Lamweb.Controllers
             if(String.IsNullOrEmpty(tendn))
             {
                 ViewData["Loi1"] = "Đăng nhập đang để trống";
-                    }
+               }
             else if(String.IsNullOrEmpty(matkhau))
             {
                 ViewData["Loi2"] = "Chưa nhập mật khẩu";
@@ -46,6 +46,13 @@ namespace Lamweb.Controllers
             int PageSize = 7;
 
             return View(db.GIAYs.ToList().OrderBy(n => n.Magiay).ToPagedList(PageNumber, PageSize));
+        }
+        public ActionResult nguoidung(int? page)
+        {
+            int PageNumber = (page ?? 1);
+            int PageSize = 7;
+
+            return View(db.KHACHHANGs.ToList().OrderBy(n => n.MaKH).ToPagedList(PageNumber, PageSize));
         }
 
     }

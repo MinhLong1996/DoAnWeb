@@ -3,13 +3,13 @@
 
 <head>
 
-    <meta charset="utf-8">
+    @*<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shop Homepage - Start Bootstrap Template</title>
+    <title>Shop Homepage - Start Bootstrap Template</title>*@
 
     <!-- Bootstrap Core CSS -->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet">
@@ -39,18 +39,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <div id="logo">
+                    <img src="~/imagers/logo2.jpg" />
+                </div>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         @Html.ActionLink("Trang Chủ", "Index", "TrangChu")
+                    </li>
 
-                    </li>
-                    <li>
-                        @Html.Action("Giohangpartial", "GioHang")
-                    </li>
                     <li>
                         @Html.ActionLink("Quản lý sản phẩm", "giay", "Admin")
                     </li>

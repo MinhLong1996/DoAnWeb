@@ -21,7 +21,8 @@
         }
 </style>
 @{ ViewBag.Title = "Chitiet";
-                Layout = "~/Views/Shared/_Layout.cshtml"; }
+                Layout = "~/Views/Shared/_LayoutUser.cshtml"; 
+    }
 
 <!DOCTYPE html>
 <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
@@ -31,7 +32,7 @@
     <title></title>
 </head>
 <body>
-    <div id="container">
+    @*<div id="container">
         <div id="banner">
             <div id="logo">
                 <img src="~/imagers/logo2.jpg" />
@@ -85,19 +86,19 @@
             <div id="right">
                 <div id="slideshow">
                     <img src="~/imagers/hinhnensandal.jpg" />
-                </div>
+                </div>*@
                 <div id="products">
                     <div class="item">
                         <h2>Thông Tin Chi Tiết sản phẩm</h2>
                         <div>
                             <div style="width:40%; float:left; padding:10px; border-color:azure">
-                                <img src="~/imagers/@Model.Anhbia" width="100%" />
+                                <img src="~/imagers/@Model.Anhbia" width="500%" />
                             </div>
-                            <div style="width:60%; float:left; padding:10px">
+                            <div style="width:200%; float:left; padding:10px">
                                 <h4 style="font-weight:bold ; color:red">Tên Sản Phẩm:@Model.Tengiay</h4>
                                 <p style="text-align:justify"> <span style="font-weight:bold"> Mô tả</span> @Model.Mota</p>
                                 <p style="font-weight:bold">
-                                    Giá bán:<span style="color:red; font-size:16pt"> @Model.Giaban VNĐ</span>
+                                    Giá bán:<span style="color:red; font-size:20pt"> @Model.Giaban VNĐ</span>
                                 </p>
                             </div>
                             <div>
@@ -110,13 +111,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            @*</div>*@
             <div class="clear"></div>
-        </div>
-        <div id="footer">
-            <p>Bản quyền thuộc về : <b>Công ty MinhLong</b></p>
-            <p>Được phát triểu bởi Minh Long Tester <b>Ahihi đồ ngok</b></p>
-        </div>
+        @*</div>*@
 
     </div>
 </body>
