@@ -17,13 +17,9 @@
                 <img src="~/imagers/logo2.jpg" />
             </div>
             <div id="menutop">
-                <a href="~/Views/TrangChu/Index">Trang Chủ</a>
-                <a href="#">Giới thiệu</a>
-                <a href="#">Sản phẩm</a>
-                <a href="#">Tư vấn</a>
-                <a href="#">Khuyến mãi</a>
-                <a href="#">Liên hệ</a>
-                <a href="#">cái gì đó</a>
+                <a href="./Index">Trang Chủ</a>
+                <a href="http://localhost:51092/TrangChu/Quangcao">Giới thiệu</a>
+                <a href="http://localhost:51092/TrangChu/Lienhe">Liên hệ</a>
             </div>
 
         </div>
@@ -31,12 +27,7 @@
             <div id="left">
                 <div class="module">
                     <h3>Danh mục sản phẩm</h3>
-                    <a href="">Giày da</a>
-                    <a href="#">Son dưỡng da</a>
-                    <a href="#">Sandal</a>
-                    <a href="#">mỹ phẩm</a>
-                    <a href="#">Sản phẩm làm dẹp</a>
-                    <a href="#">Sản phẩm làm dẹp</a>
+                        @Html.Action("Chude", "TrangChu")
                 </div>
                 <div class="module">
                     <h3>Thống kê truy cập</h3>
@@ -86,7 +77,8 @@
                             <div class="timeline-content">
                                 <h5 class="title">Visual Art &amp; Design</h5>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    Được phát triển bởi người sáng lập công ty ông Trịnh Minh A
+                                    
                                 </p>
                             </div>
                         </div>
@@ -103,9 +95,9 @@
                                 </div>
                             </div>
                             <div class="timeline-content">
-                                <h5 class="title">Product Designer</h5>
+                                <h5 class="title">MỞ CỬA BÁN</h5>
                                 <p class="description">
-                                    Được phát triển bởi người sáng lập công ty ông Trịnh Minh A
+                                    Sản phẩm được bày bán rộng ở Chợ Bến Thành
                                 </p>
                             </div>
                         </div>
@@ -122,9 +114,9 @@
                                 </div>
                             </div>
                             <div class="timeline-content">
-                                <h5 class="title">Web Designer</h5>
+                                <h5 class="title">SẢN SUẤT</h5>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                Sản phẩm được ra mắt ở nhiều noi đặt biệt là Trung Quốc    
                                 </p>
                             </div>
                         </div>
@@ -135,15 +127,15 @@
                             <div class="date-content">
                                 <div class="date-outer">
                                     <span class="date">
-                                        <span class="month">2 Years</span>
-                                        <span class="year">2018</span>
+                                        <span class="month">4 Years</span>
+                                        <span class="year">2020</span>
                                     </span>
                                 </div>
                             </div>
                             <div class="timeline-content">
-                                <h5 class="title">Graphic Designer</h5>
+                                <h5 class="title">COVID-19</h5>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    Do dịch Covid nên không có gì mới
                                 </p>
                             </div>
                         </div>
@@ -153,10 +145,6 @@
                 </div>
             </div>
             <div class="clear"></div>
-        </div>
-        <div id="footer">
-            <p>Bản quyền thuộc về : <b>Công ty MinhLong</b></p>
-            <p>Được phát triểu bởi Minh Long Tester <b>Ahihi đồ ngok</b></p>
         </div>
 
     </div>

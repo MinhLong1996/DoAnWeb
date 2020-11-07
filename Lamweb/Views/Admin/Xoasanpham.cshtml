@@ -1,0 +1,77 @@
+﻿@model Lamweb.Models.GIAY
+
+@{
+    ViewBag.Title = "Xoasanpham";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Xác nhận thông tin sản phẩm cần xóa</h2>
+
+<h3>Bạn muốn xóa sản phẩm này ?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên sản phẩm:
+        </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tengiay)
+        </dt>
+        <dt>
+            Giá bán:
+        </dt>
+        <dt>
+            @String.Format("{0:0,0}", Model.Giaban) VNĐ
+        </dt>
+        <dt>
+            Mô tả:
+        </dt>
+        <dd style="width:600px;text-align:justify">
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+        <dt>
+            Ảnh bìa:
+        </dt>
+        <dd>
+            <img src="@Url.Content("~/imagers/"+ Model.Anhbia)" width="120px" />
+        </dd>
+        <dt>
+            Ngày cập nhật:
+        </dt>
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.Ngaycapnhat) VNĐ
+        </dd>
+
+        <dt>
+            Số lượng tồn:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+        <dt>
+            Chủ đề:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CHUDE.TenChuDe)
+        </dd>
+
+        <dt>
+            Nhà Phân phối:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NHAPHANPHOI.TenNPP)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Quay lại", "Giay")
+        </div>
+    }
+</div>

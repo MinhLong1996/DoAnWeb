@@ -1,0 +1,71 @@
+﻿@model Lamweb.Models.GIAY
+
+@{
+    ViewBag.Title = "ChitietSP";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thông tin chi tiết sản phẩm</h2>
+
+<div>
+    <h4>Thông tin chi tiết sản phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên sản phẩm:
+        </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tengiay)
+        </dt>
+        <dt>
+            Giá bán:
+        </dt>
+        <dt>
+            @String.Format("{0:0,0}",Model.Giaban) VNĐ
+        </dt>
+        <dt>
+           Mô tả:
+        </dt>
+        <dd style="width:600px;text-align:justify">
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+        <dt>
+            Ảnh bìa:
+        </dt>
+    <dd>
+        <img src="@Url.Content("~/imagers/"+ Model.Anhbia)" width="120px" />
+    </dd>
+        <dt>
+            Ngày cập nhật:
+        </dt>
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.Ngaycapnhat) VNĐ
+        </dd>
+
+        <dt>
+            Số lượng tồn:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+        <dt>
+            Chủ đề:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CHUDE.TenChuDe)
+        </dd>
+
+        <dt>
+           Nhà Phân phối:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NHAPHANPHOI.TenNPP)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("ĐIỀU CHỈNH", "SuaSP", new { id = Model.Magiay }) |
+    @Html.ActionLink("Quay lại", "giay")
+</p>

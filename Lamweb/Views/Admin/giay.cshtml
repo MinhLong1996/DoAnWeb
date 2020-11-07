@@ -1,6 +1,15 @@
 ﻿@using Lamweb.Models
 @using PagedList.Mvc;
 @model  PagedList.PagedList<Lamweb.Models.GIAY>
+@helper Truncate(string input, int length)
+{
+if (input.Length < length)
+{
+        @input
+}
+else
+{@input.Substring(0, length)<text>...</text>}
+}
 
 
 @{
@@ -8,13 +17,15 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
+<h2>.</h2>
 <h2>Quản lý thông tin sản phẩm</h2>
 <p>
-    @Html.ActionLink("CreateNew", "Create")
+    @Html.ActionLink("Thêm mới", "ThemmoiSP")
 </p>
 <table class="table">
+
     <tr>
-        <th>
+        @*<th>
             @Html.DisplayNameFor(model => model.First().Tengiay)
         </th>
         <th>
@@ -34,33 +45,57 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.First().MaCD)
-        </th>      
+        </th>*@     
+        <th style="width:200px">Tên sản phẩm</th>
+        <th style="width:100px">Giá bán</th>
+        <th style="width:300px">Mô tả </th>
+        <th style="width:120px">Ảnh bìa</th>
+        <th style="width:150px">Ngày cập nhật</th>
+        <th style="width:120px">Số lượng còn</th>
+        <th style="width:120px">Mã CD</th>
+        <th style="width:100px">Mã NPP</th>
+        <th style="width:200px">    </th> 
     </tr>
-    @foreach(var item  in Model)
+    @foreach (var item in Model)
     {
-        <td>
-            @Html.DisplayFor(modelItem => item.Giaban)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Mota)
-        </td>
-        @*<td>
-            <img src="@Url.Content("~/imagers/"+ item.Anhbia)" />
-        </td>*@
-        <td>
-            @Html.DisplayFor(modelItem => item.Ngaycapnhat)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Soluongton)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CHUDE.TenChuDe)
-        </td>
-        <td>
-            @Html.ActionLink("Edit","Edit", new { id = item.Magiay})
-            @Html.ActionLink("Detail", "Detail", new { id = item.Magiay })
-            @Html.ActionLink("Delete", "Delete", new { id = item.Magiay })
-        </td>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tengiay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @Truncate(item.Mota, 100)
+            </td>
+            @*<td>
+                <img src="@Url.Content("~/imagers/"+ item.Anhbia)" />
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Mota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anhbia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaCD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNPP)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "SuaSP", new { id = item.Magiay }) |
+                @Html.ActionLink("Chi tiết", "ChitietSP", new { id = item.Magiay }) |
+                @Html.ActionLink("Xóa", "Xoasanpham", new { id = item.Magiay })
+            </td>
+        </tr>
     }
 </table>
 

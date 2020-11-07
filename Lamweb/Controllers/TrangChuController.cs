@@ -19,7 +19,7 @@ namespace Lamweb.Controllers
         }
         public ActionResult Index(int? page)
         {
-            int pageSize = 5;
+            int pageSize = 6;
             int pageNum = (page ?? 1);
             var giay = giaymoi(20);
             return View(giay.ToPagedList(pageNum, pageSize));

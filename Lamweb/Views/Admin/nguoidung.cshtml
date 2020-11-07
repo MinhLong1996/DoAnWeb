@@ -60,9 +60,9 @@
             @Html.DisplayFor(modelItem => item.Ngaysinh)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaKH }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaKH }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaKH })
+            @Html.ActionLink("Chỉnh sửa", "SuaND", new { id=item.MaKH }) |
+            @Html.ActionLink("Chi tiết", "ChitietND", new { id=item.MaKH }) |
+            @Html.ActionLink("Xóa", "XoaND", new { id=item.MaKH })
         </td>
     </tr>
 }

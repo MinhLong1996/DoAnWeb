@@ -7,6 +7,7 @@ using Lamweb.Models;
 using System.Data;
 using PagedList;
 using PagedList.Mvc;
+using System.IO;
 namespace Lamweb.Controllers
 {
     public class AdminController : Controller
@@ -40,6 +41,84 @@ namespace Lamweb.Controllers
             }
             return View();
         }
+        [HttpGet]
+        public ActionResult Xoasanpham(int id)
+        {
+            GIAY giay = db.GIAYs.SingleOrDefault(n => n.Magiay == id);
+            ViewBag.Magiay = giay.Magiay;
+            if (giay == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            return View(giay);
+        }
+        [HttpPost,ActionName("XoaSP")]
+        public ActionResult Xacnhanxoa(int id)
+        {
+            GIAY giay = db.GIAYs.SingleOrDefault(n => n.Magiay == id);
+            ViewBag.Magiay = giay.Magiay;
+            if (giay == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            db.GIAYs.DeleteOnSubmit(giay);
+            db.SubmitChanges();
+            return RedirectToAction("giay");
+
+        }
+        public ActionResult ThemmoiSP()
+        {
+            ViewBag.MaCD = new SelectList(db.CHUDEs.ToList().OrderBy(n => n.TenChuDe), "MaCD", "TenChude");
+            ViewBag.MaNPP = new SelectList(db.NHAPHANPHOIs.ToList().OrderBy(n => n.TenNPP), "MaNPP", "TenNPP");
+            return View();
+        }
+        [HttpPost]
+        public ActionResult ThemmoiSP(GIAY giay, HttpPostedFileBase fileupload)
+        {
+            var filename = Path.GetFileName(fileupload.FileName);
+            var path = Path.Combine(Server.MapPath("~/imagers/"), filename);
+            if (System.IO.File.Exists(path))
+            {
+                ViewBag.Thongbao = "Hinh ảnh đã tồn tại";
+            }
+            else
+            { fileupload.SaveAs(path); }
+            ViewBag.MaCD = new SelectList(db.CHUDEs.ToList().OrderBy(n => n.TenChuDe), "MaCD", "TenChude");
+            ViewBag.MaNPP = new SelectList(db.NHAPHANPHOIs.ToList().OrderBy(n => n.TenNPP), "MaCD", "TenChude");
+            return View();
+
+        }
+        public ActionResult ChitietSP(int id)
+        {
+            GIAY giay = db.GIAYs.SingleOrDefault(n => n.Magiay == id);
+            ViewBag.Magiay = giay.Magiay;   
+            if(giay == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            return View(giay);
+                
+        }
+        [HttpGet]
+        public ActionResult SuaSP(int id)
+        {
+            GIAY giay = db.GIAYs.SingleOrDefault(n => n.Magiay == id);
+            
+            if (giay == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            return View(giay);
+            ViewBag.MaCD = new SelectList(db.CHUDEs.ToList().OrderBy(n => n.TenChuDe), "MaCD", "TenChude",giay.MaCD);
+            ViewBag.MaNPP = new SelectList(db.NHAPHANPHOIs.ToList().OrderBy(n => n.TenNPP), "MaNPP", "TenNPP",giay.MaNPP);
+            return View(giay);
+
+        }
+
         public ActionResult giay(int? page)
         {
             int PageNumber = (page ?? 1);
@@ -55,5 +134,85 @@ namespace Lamweb.Controllers
             return View(db.KHACHHANGs.ToList().OrderBy(n => n.MaKH).ToPagedList(PageNumber, PageSize));
         }
 
+
+
+
+
+        //Thêm xóa chỉnh sửa người dùng
+        [HttpGet]
+        public ActionResult XoaND(int id)
+        {
+            KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
+            ViewBag.MaKH = nguoidung.MaKH;
+            if (nguoidung == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            return View(nguoidung);
+        }
+        [HttpPost, ActionName("XoaSP")]
+        public ActionResult Xacnhanxoa1(int id)
+        {
+            KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
+            ViewBag.MaKH = nguoidung.MaKH;
+            if (nguoidung == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            db.KHACHHANGs.DeleteOnSubmit(nguoidung);
+            db.SubmitChanges();
+            return RedirectToAction("nguoidung");
+
+        }
+        public ActionResult ThemmoiND()
+        {
+            ViewBag.MaKH = new SelectList(db.KHACHHANGs.ToList().OrderBy(n => n.HoTen), "MaKH", "TenKH");
+            
+            return View();
+        }
+        [HttpPost]
+        public ActionResult ThemmoiND(KHACHHANG nguoidung, HttpPostedFileBase fileupload)
+        {
+            var filename = Path.GetFileName(fileupload.FileName);
+            var path = Path.Combine(Server.MapPath("~/imagers/"), filename);
+            if (System.IO.File.Exists(path))
+            {
+                ViewBag.Thongbao = "Hinh ảnh đã tồn tại";
+            }
+            else
+            { fileupload.SaveAs(path); }
+            ViewBag.MaKH = new SelectList(db.KHACHHANGs.ToList().OrderBy(n => n.HoTen), "MaKH", "TenKH");
+            return View();
+
+        }
+        public ActionResult ChitietND(int id)
+        {
+            KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
+            ViewBag.MaKH = nguoidung.MaKH;
+            if (nguoidung == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            return View(nguoidung);
+
+        }
+        [HttpGet]
+        public ActionResult SuaND(int id)
+        {
+            KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
+
+            if (nguoidung == null)
+            {
+                Response.StatusCode = 404;
+                return null;
+            }
+            return View(nguoidung);
+            ViewBag.MaKH = new SelectList(db.KHACHHANGs.ToList().OrderBy(n => n.HoTen), "MaCD", "TenChude", nguoidung.MaKH);
+            return View(nguoidung);
+
+        }
     }
 }

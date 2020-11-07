@@ -379,6 +379,10 @@
     <Content Include="Views\Admin\giay.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\nguoidung.cshtml" />
+    <Content Include="Views\Admin\ThemmoiSP.cshtml" />
+    <Content Include="Views\Admin\ChitietSP.cshtml" />
+    <Content Include="Views\Admin\Xoasanpham.cshtml" />
+    <Content Include="Views\Admin\SuaSP.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
