@@ -107,7 +107,7 @@ namespace Lamweb.Controllers
                 {
                      ViewBag.Thongbao = "Chúc mừng đăng nhập thành công";
                     Session["Taikhoanadmin"] = ad;
-                    return RedirectToAction("giay", "Admin");
+                    return RedirectToAction("Index", "Admin");
                 }
                 else
                     ViewBag.Thongbao = "Tên đăng nhập hoặc mật khẩu không đúng";

@@ -1,7 +1,7 @@
 ﻿@using Lamweb.Models
 @using PagedList.Mvc;
 @model  PagedList.PagedList<Lamweb.Models.GIAY>
-@helper Truncate(string input, int length)
+@*@helper Truncate(string input, int length)
 {
 if (input.Length < length)
 {
@@ -9,7 +9,7 @@ if (input.Length < length)
 }
 else
 {@input.Substring(0, length)<text>...</text>}
-}
+}*@
 
 
 @{
@@ -64,11 +64,11 @@ else
                 @Html.DisplayFor(modelItem => item.Tengiay)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Giaban)
+                @Html.DisplayFor(modelItem => item.Giaban) VNĐ
             </td>
-            <td>
+            @*<td>
                 @Truncate(item.Mota, 100)
-            </td>
+            </td>*@
             @*<td>
                 <img src="@Url.Content("~/imagers/"+ item.Anhbia)" />
             </td>*@

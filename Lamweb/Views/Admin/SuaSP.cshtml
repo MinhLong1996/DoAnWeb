@@ -70,14 +70,16 @@
         <div class="form-group">
             @Html.LabelFor(model => model.MaCD, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("MaCD")
+                @Html.EditorFor(model => model.MaCD)
+                @Html.ValidationMessageFor(model => model.MaCD)
             </div>
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.MaNPP, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownList("MaNPP")
+                @Html.EditorFor(model => model.MaNPP)
+                @Html.ValidationMessageFor(model => model.MaNPP)
             </div>
         </div>
 

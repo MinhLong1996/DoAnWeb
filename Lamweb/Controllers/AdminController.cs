@@ -151,8 +151,8 @@ namespace Lamweb.Controllers
             }
             return View(nguoidung);
         }
-        [HttpPost, ActionName("XoaSP")]
-        public ActionResult Xacnhanxoa1(int id)
+        [HttpPost, ActionName("XoaND")]
+        public ActionResult XacnhanxoaND(int id)
         {
             KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
             ViewBag.MaKH = nguoidung.MaKH;
@@ -166,53 +166,6 @@ namespace Lamweb.Controllers
             return RedirectToAction("nguoidung");
 
         }
-        public ActionResult ThemmoiND()
-        {
-            ViewBag.MaKH = new SelectList(db.KHACHHANGs.ToList().OrderBy(n => n.HoTen), "MaKH", "TenKH");
-            
-            return View();
-        }
-        [HttpPost]
-        public ActionResult ThemmoiND(KHACHHANG nguoidung, HttpPostedFileBase fileupload)
-        {
-            var filename = Path.GetFileName(fileupload.FileName);
-            var path = Path.Combine(Server.MapPath("~/imagers/"), filename);
-            if (System.IO.File.Exists(path))
-            {
-                ViewBag.Thongbao = "Hinh ảnh đã tồn tại";
-            }
-            else
-            { fileupload.SaveAs(path); }
-            ViewBag.MaKH = new SelectList(db.KHACHHANGs.ToList().OrderBy(n => n.HoTen), "MaKH", "TenKH");
-            return View();
-
-        }
-        public ActionResult ChitietND(int id)
-        {
-            KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
-            ViewBag.MaKH = nguoidung.MaKH;
-            if (nguoidung == null)
-            {
-                Response.StatusCode = 404;
-                return null;
-            }
-            return View(nguoidung);
-
-        }
-        [HttpGet]
-        public ActionResult SuaND(int id)
-        {
-            KHACHHANG nguoidung = db.KHACHHANGs.SingleOrDefault(n => n.MaKH == id);
-
-            if (nguoidung == null)
-            {
-                Response.StatusCode = 404;
-                return null;
-            }
-            return View(nguoidung);
-            ViewBag.MaKH = new SelectList(db.KHACHHANGs.ToList().OrderBy(n => n.HoTen), "MaCD", "TenChude", nguoidung.MaKH);
-            return View(nguoidung);
-
-        }
+  
     }
 }

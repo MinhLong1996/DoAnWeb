@@ -4,12 +4,11 @@
     ViewBag.Title = "nguoidung";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-
+<h4>.</h4>
+<h4>.</h4>
 <h2>Người Dùng</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <table class="table">
     <tr>
         <th>
@@ -60,8 +59,6 @@
             @Html.DisplayFor(modelItem => item.Ngaysinh)
         </td>
         <td>
-            @Html.ActionLink("Chỉnh sửa", "SuaND", new { id=item.MaKH }) |
-            @Html.ActionLink("Chi tiết", "ChitietND", new { id=item.MaKH }) |
             @Html.ActionLink("Xóa", "XoaND", new { id=item.MaKH })
         </td>
     </tr>
