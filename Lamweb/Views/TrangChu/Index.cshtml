@@ -1,12 +1,10 @@
 ﻿@using Lamweb.Models
 @using PagedList.Mvc;
 @model PagedList.PagedList<GIAY>
-
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutUser.cshtml";
 }
-
 
 <!DOCTYPE html>
 <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
@@ -19,111 +17,111 @@
     <title></title>
 </head>
 <body>
-
     <div id="container">
-    <div id="banner">
-        <div id="logo">
-            <img src="~/imagers/logo2.jpg" />
-        </div>
-        <div id="menutop">
-            <a href="./Index">Trang Chủ</a>
-            <a href="http://localhost:51092/TrangChu/Quangcao">Giới thiệu</a>
-            <a href="http://localhost:51092/TrangChu/Lienhe">Liên hệ</a>
-            <input type="text" placeholder="Tìm kiếm..." />
-        </div>
-
-    </div>
-    <div id="content">
-        <div id="left">
-            <div class="module">
-                <h3>Danh mục sản phẩm</h3>
-              @Html.Action("Chude","TrangChu")
+        <div id="banner">
+            <div id="logo">
+                <img src="~/imagers/logo2.jpg" />
             </div>
-            
-            <div class="module">
-                <h3>Thống kê truy cập</h3>
-                <h4></h4>
-                <div class="StaticticImg">
-                    
-                    <img src="~/imagers/0.png" />
-                    <img src="~/imagers/7.png" />
-                    <img src="~/imagers/8.png" />
-                    <img src="~/imagers/3.png" />
-                    <img src="~/imagers/0.png" />
+            <div id="menutop">
+                <a href="./Index">Trang Chủ</a>
+                <a href="http://localhost:51092/TrangChu/Quangcao">Giới thiệu</a>
+                <a href="http://localhost:51092/TrangChu/Lienhe">Liên hệ</a>
+                <input type="text" placeholder="Tìm kiếm..." />
+            </div>
+
+        </div>
+        <div id="content">
+            <div id="left">
+                <div class="module">
+                    <h3>Danh mục sản phẩm</h3>
+                    @Html.Action("Chude", "TrangChu")
                 </div>
-                <div class="StaticticContent">
-                    <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Hôm nay</div>
-                    <div class="rightAlign">100</div>
-                    <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Hôm qua</div>
-                    <div class="rightAlign">100</div>
-                    <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Tuần này</div>
-                    <div class="rightAlign">6900</div>
-                    <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Tuần trước</div>
-                    <div class="rightAlign">5000</div>
+
+                <div class="module">
+                   <div>
+                       <h3>Thống kê truy cập</h3>
+                       <h4></h4>
+                   </div>
+
+                    <div class="StaticticImg">
+                        <img src="~/imagers/0.png" />
+                        <img src="~/imagers/7.png" />
+                        <img src="~/imagers/8.png" />
+                        <img src="~/imagers/3.png" />
+                        <img src="~/imagers/0.png" />
+                    </div>
+                    <div class="StaticticContent">
+                        <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Hôm nay</div>
+                        <div class="rightAlign">100</div>
+                        <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Hôm qua</div>
+                        <div class="rightAlign">100</div>
+                        <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Tuần này</div>
+                        <div class="rightAlign">6900</div>
+                        <div class="leftAlign"><img src="~/imagers/vlweek.png" /> Tuần trước</div>
+                        <div class="rightAlign">5000</div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
+                <div class="module">
+                    <h3>Quảng cáo</h3>
+                    <div class="ads">
+                        <img src="~/imagers/dienmayxanh.gif" /> <img src="~/imagers/Conmeo.gif" />
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div id="slideshow">
+                    <img src="~/imagers/hinhnensandal.jpg" />
+                </div>
+                <div id="products">
+                    <div class="row">
+                        @foreach (var giay in Model)
+                        {
+                            <div class="col-sm-4 col-lg-4 col-md-4">
+                                <div class="thumbnail">
+                                    <a href="@Url.Action("Chitiet" , "TrangChu", new { id = giay.Magiay}) " style="display: flex; flex-flow:row; justify-content: center">
+                                        <img alt="@giay.Tengiay" src="~/imagers/@giay.Anhbia"  style="width:150px; max-width:100%; height:150px; max-height:150px;" />
+                                    </a>
+                                    <div>
+                                        <br />
+                                        <h4 style="text-align:center; height: 2em; display: -webkit-box;  -webkit-line-clamp: 2;  -webkit-box-orient: vertical;  overflow: hidden">
+                                            @giay.Tengiay
+                                        </h4>
+                                        <p></p>
+                                    </div>
+
+                                    <div class="ratings">
+                                        <p class="pull-right">15 reviews</p>
+                                        <p>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star">
+                                            </span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                    </div>
+
+                                </div>
+                                <b>Chi tiết sản phẩm</b>
+                            </div>
+                        }
+
+                    </div>
+
+                </div>
+                Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+                <div class="Menutrang">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+                </div>
+                <style>
+                    .Menutrang li {
+                        display: inline;
+                    }
+                </style>
                 <div class="clear"></div>
             </div>
-            <div class="module">
-                <h3>Quảng cáo</h3>
-                <div class="ads">
-                    <img src="~/imagers/dienmayxanh.gif" /> <img src="~/imagers/Conmeo.gif" />
-                </div>
-            </div>
+
         </div>
-        <div id="right">
-            <div id="slideshow">
-                <img src="~/imagers/hinhnensandal.jpg" />
-            </div>
-            <div id="products">
-                
-                @foreach (var giay in Model)
-                {
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <a href="@Url.Action("Chitiet" , "TrangChu", new { id = giay.Magiay}) ">
-                                <img alt="@giay.Tengiay" src="~/imagers/@giay.Anhbia" width="150" />
-                                <div>
-                                    <br />
-                                    <h4 style="text-align:center">
-                                        @giay.Tengiay
-                                    </h4>
-                                    <p></p>
-                                </div>
-                                <div class="ratings">
-                                    <p class="pull-right">15 reviews</p>
-                                    <p>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star">
-                                        </span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-                                        <span class="glyphicon glyphicon-star"></span>
-
-                                </div>
-                                
-                        </div>
-                        <b>Chi tiết sản phẩm</b>
-                    </div>
-                }
-
-
-            </div>
-
-            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
-            <div class="Menutrang">
-                @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
-            </div>
-            <style>
-                .Menutrang li {
-                    display: inline;
-                }
-            </style>
-            <div class="clear"></div>
-        </div>
-        
     </div>
-        </div>
 </body>
 </html>
-
-
