@@ -151,7 +151,7 @@ INSERT NHAPHANPHOI(TenNPP, Diachi, Dienthoai) VALUES ( N'CTY BACONHEO', N'Hà N�
 
 
 INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
-VALUES (N'Sandal 1', 150000, N'Sản phẩm: Mã sản phẩm: 2178
+VALUES (N'Sandal Kẹp đỏ', 150000, N'Sản phẩm: Mã sản phẩm: 2178
 
 Đế: Nhựa sốp( đi nước và vệ sinh bình thường)
 Đặc điểm : Nhẹ và êm chân
@@ -161,17 +161,16 @@ Chất liệu: Da bò thật 100%
 Màu sắc: Nâu
 Lót chân: Da bò lộn
 Bảo hành 6 tháng.
-Hổ trợ đổi size và mẫu trong 2 ngày!
-Xin trân trọng giới thiệu cuốn sách cùng bạn', 
-'Sandal.jpg', 7, 1, '10/25/2014', 120)
+Hổ trợ đổi size và mẫu trong 2 ngày!', 
+'13.jpg', 1, 1, '10/25/2020', 120)
 
 INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
-VALUES (N'SANDAL NỮ MONA CAO', 250000,  
+VALUES (N'SANDAL nữ hoa', 250000,  
 N'- Với chiều cao 7cm, giúp các nàng thoải mái với chiều cao vừa phải vẫn tự tin vì rất lên dáng
 - Lót mút bên trong dày, êm chân, thêm vào đó là được thiết kế với lỗ hút giúp thoáng cho đôi chân
 - Kiểu dáng cơ bản, ôm dáng với chất liệu da thật cực kỳ ôm chân
 - Kiểu dáng trẻ trung năng động, đi làm, đi chơi, dạo phố đều đẹp.', 
-'Sandal1.jpg', 3, 2, '10/23/2013', 25)
+'1.jpg', 1, 2, '10/23/2020', 25)
 
 INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
 VALUES ( N'Sandal nữ S14 VIETLAVANI', 11500, 
@@ -184,7 +183,7 @@ Bản gót dẹp mới nhất hiện nay
 Đi ôm chân cực sang chảnh
 Quai bản to đi cực chắc chân 
 thích hợp đi chơi, đi học, du lịch, đi đường xa....', 
-'Sandal2.jpg', 7, 3, '12/21/2014', 23)
+'Sandal1.jpg', 1, 3, '12/21/2014', 23)
 
 INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
 VALUES ( N'sandal đế xuồng phong cách Hàn Quốc', 200000, 
@@ -195,7 +194,7 @@ VALUES ( N'sandal đế xuồng phong cách Hàn Quốc', 200000,
 ✔ Size: 35 đến 40, GIÀY CÓ SẴN 
 ✔  Bảo hành keo, gót 12 tháng
 ✈ Giao hàng: Shop giao hàng Toàn Quốc', 
-'Sandal2.jpg', 8, 4, '9/15/2014', 240)
+'Sandal3.jpg', 1, 4, '9/15/2020', 240)
 INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
 VALUES ( N'SANDAL NỮ 2 DÂY NGANG GÓT THUN CO DÃN mã SD-002', 250000, 
 N'Chi tiết sản phẩm và THÔNG SỐ KỸ THUẬT
@@ -207,7 +206,7 @@ Kích cỡ: 36-37-38-39-40
 SANDAL NỮ 2 MÀU ĐEN - BE MÃ SD-002
 kiểu dáng năng động, tiện dụng.
  Giày  sandal quai ngang duyên dáng Giày sandal quai hậu to bản ôm gọn cổ chân  Đế cao su nguyên khối dày, có rãnh chống trơn trượt an toàn khi di chuyển và vận động. Thích hợp với trang phục năng động, trẻ trung Phù hợp đi chơi, du lịch, dạo phố, đi học...v...v...v', 
-'Sandal3.jpg', 1, 7,'10/18/2015', 16)
+'Sandal10.jpg', 1, 7,'10/18/2015', 16)
 
 INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
 VALUES ( N'SANDAL NỮ 2 DÂY NGANG GÓT', 285000, 
@@ -219,10 +218,163 @@ Mix phong cách vintage cổ điển, nhẹ nhàng, trẻ trung thì chắc ch�
 ✔Kết cấu đế PVC cao 7cm siêu êm, chống nước và mồi hôi, không gây hôi chân, cả ngày thoải mái tự tin tung tăng di chuyển bất chấp đi mưa nhé.
 ✔Dép xăng đan nữ  này quai được đính chắc chắn bằng lớp keo ép nhiệt và cả đinh tán 2 cạnh nên khi quyết định mua ẻm sandal này thì các bạn sẽ yên tâm tuyệt đối vì mẫu dép quai hậu này đảm bảo đủ các yếu tố chất lượng bền, kiểu dáng đẹp hợp thời trang và giá rẻ hấp dẫn vô cùng. 
 Sản phẩm sandal nữ này có 3 màu: Đen, be, nâu lên chân làm sáng da và rất dễ phối đồ. Kết hợp nhiều loại trang phục như jeans, short, quần tây, kaki...', 
-'Sandal2.jpg', 2, 1, '10/18/2015', 16)
+'11.jpg', 1, 1, '10/18/2020', 16)
 
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Giày Sỏ', 150000
+'Sản phẩm: Mã sản phẩm: 2178
+Đế: Nhựa sốp( đi nước và vệ sinh bình thường)
+Đặc điểm : Nhẹ và êm chân
+Kiểu dáng: Xỏ ngón, cổ điển
+Chất liệu: Da bò thật 100%
+Độ cao: 1.5cm
+Màu sắc: Nâu
+Lót chân: Da bò lộn
+Bảo hành 6 tháng.
+Hổ trợ đổi size và mẫu trong 2 ngày!
+Xin trân trọng giới thiệu cuốn sách cùng bạn','5.jpg', 1, 7,'10/18/2015', 16)
 
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'SANDAL Quai ngang nữ', 250000, 
+ N'-Giúp các nàng thoải mái với chiều cao vừa phải vẫn tự tin vì rất lên dáng
+- Lót mút bên trong dày, êm chân, thêm vào đó là được thiết kế với lỗ hút giúp thoáng cho đôi chân
+- Kiểu dáng cơ bản, ôm dáng với chất liệu da thật cực kỳ ôm chân
+- Kiểu dáng trẻ trung năng động, đi làm, đi chơi, dạo phố đều đẹp.', 
+'9.jpg', 1, 2, '9/15/2020', 240)
 
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Sandal nữ chéo', 115000, 
+ N'Guốc 5 Phân 2 Quai bản ngang 
+Xuất sắc các bác ôiiii 
+Eo ôi cực phẩm này không quá cao, không quá thấp nên dễ đi lắm đây này
+Chiều cao: 5cm
+Màu sắc: 2 màu cơ bản Đen và Nude
+Bản gót dẹp mới nhất hiện nay
+Đi ôm chân cực sang chảnh
+Quai bản to đi cực chắc chân 
+thích hợp đi chơi, đi học, du lịch, đi đường xa....', 
+'17.jpg', 1, 3, '9/15/2020', 240)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'sandal đế xuồng phong cách Hàn Quốc', 200000, 
+ N'Giày Sandal đế xuồng cá tính
+✔ Chất liệu:  Da và PU
+✔ Màu sắc: Trắng
+✔ Đế cao: 6cm
+✔ Size: 35 đến 40, GIÀY CÓ SẴN 
+✔  Bảo hành keo, gót 12 tháng
+✈ Giao hàng: Shop giao hàng Toàn Quốc', 
+'4.jpg', 1, 4, '9/15/2020', 240)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'SANDAL NỮ 2 DÂY NGANG GÓT THUN CO DÃN mã SD-002', 250000, 
+ N'Chi tiết sản phẩm và THÔNG SỐ KỸ THUẬT
+Mã SP: MÃ SD-002
+Kiểu dáng: saldal SD 002
+Độ cao: Cao 2.5cm
+Màu sắc:  BE - Đen
+Kích cỡ: 36-37-38-39-40
+SANDAL NỮ 2 MÀU ĐEN - BE MÃ SD-002
+kiểu dáng năng động, tiện dụng.
+ Giày  sandal quai ngang duyên dáng Giày sandal quai hậu to bản ôm gọn cổ chân  Đế cao su nguyên khối dày, có rãnh chống trơn trượt an toàn khi di chuyển và vận động. Thích hợp với trang phục năng động, trẻ trung Phù hợp đi chơi, du lịch, dạo phố, đi học...v...v...v', 
+'Sandal3.jpg', 1, 7, '9/15/2020', 240)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Đế xuồng cao', 285000, 
+ N'MÃ SẢN PHẨM :SANDAL ĐẾ XUỒNG CAO 7CM ĐƠN GIẢN
+Sản phẩm giày sandal nữ mẫu mới thoáng chân với kiểu dáng đơn giản, tiện lợi phù hợp đi học, đi làm, đi chơi đã có mặt tại UMI SHOES rồi nhé cả nhà ơi
+Dép sandal đế xuồng nữ này sử dụng trong mọi phong cách, mọi hoàn cảnh. 
+Mix phong cách vintage cổ điển, nhẹ nhàng, trẻ trung thì chắc chắn e sandal đế xuồng này sẽ không làm các nàng thất vọng. Sử dụng mọi mục đích: sandal đế xuồng đi biển, sandal đế xuồng đi học, sandal đế xuồng đi du lịch, sandal đế xuồng đi chơi dạo phố, sandal đế xuồng công sở, sandal đế xuồng đi làm văn phòng, sandal đế xuồng đi làm công ty  xưởng máy....
+✔Dép sandal đế xuồng nữ phong cách Hàn Quốc với kiểu dán đơn giản nhưng không kém phần thời trang, thanh lịch có 2 kiểu dáng sandal quai ngang và quai chéo lên chân siêu gọn ôm chân. Đây là 1 trong số những đôi sandal vừa HẠT DẺ lại vừa XINH DÃ MAN tại Shop đấy 
+✔Kết cấu đế PVC cao 7cm siêu êm, chống nước và mồi hôi, không gây hôi chân, cả ngày thoải mái tự tin tung tăng di chuyển bất chấp đi mưa nhé.
+✔Dép xăng đan nữ  này quai được đính chắc chắn bằng lớp keo ép nhiệt và cả đinh tán 2 cạnh nên khi quyết định mua ẻm sandal này thì các bạn sẽ yên tâm tuyệt đối vì mẫu dép quai hậu này đảm bảo đủ các yếu tố chất lượng bền, kiểu dáng đẹp hợp thời trang và giá rẻ hấp dẫn vô cùng. 
+Sản phẩm sandal nữ này có 3 màu: Đen, be, nâu lên chân làm sáng da và rất dễ phối đồ. Kết hợp nhiều loại trang phục như jeans, short, quần tây, kaki...', 
+'Sandal7.jpg', 1, 1, '9/15/2020', 240)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'SANDAL NỮ HOA', 200000, 
+ N'Thiết kế thoáng mát làm cho người đi cảm thấy thoải mái vào những ngày hè nóng bức; sản phẩm còn phù hợp cho những chuyến đi chơi biển, lội sông suối, không lo bị ướt giày ;  ngoài ra sản phẩm còn rất dễ phối đồ khi đi chơi, đi dạo phố, hay đi ra ngoài tụ họp cùng bạn bè', 
+'14.jpg', 1, 1, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'K65-11 Gucci', 2400000, 
+ N'replica là gì, hàng replica là gì, giày replica là gì, giày super fake, hàng super fake là gì, giày super fake hcm, giày fake loại 1, giày super fake ...', 
+'gucci.jpg', 3, 1, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Giày thể thao nam Puma Enzo Weave màu đen', 3140000, 
+ N'Giày thể thao nam Puma Enzo Weave màu đen 19148701 có thiết kế đa dạng với cùng chất liệu cao cấp chuyên dụng trong thể thao, thấm hút cực tốt, độ bền cao, sản phẩm sẽ luôn mang đến cảm giác thoải mái cho bạn trong suốt quá trình vận động. Đến với giày thể thao Puma Enzo chất liệu dệt và tăng cường cho buổi tập tiếp theo của bạn. Được thiết kế với chất liệu mặt trên tổng hợp bền, những đôi giày này mang lại cảm giác thoải mái và thoáng khí suốt cả ngày, trong khi đế ngoài mang lại lực đẩy. Đóng ren-up đảm bảo vừa vặn và các chữ PUMA trên lưỡi và bảng điều khiển bên mang lại phong cách.', 
+'giaynam.jpg', 3, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Giày Thể Thao Nam Zapas GS102', 1000000, 
+ N'Thiết kế lịch lãm, sang trọng
+Độc đáo với thiết kế siêu nhẹ và bền
+Màu sắc cá tính riêng biệt
+Thiết kế êm ái và thoải mái
+Dễ dàng phối trang phục
+Mũi giày tròn', 
+'giaynam1.jpeg', 3, 1, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Dép xanh dương', 120000, 
+ N'Thiết kế thoáng mát làm cho người đi cảm thấy thoải mái vào những ngày hè nóng bức; sản phẩm còn phù hợp cho những chuyến đi chơi biển, lội sông suối, không lo bị ướt giày ;  ngoài ra sản phẩm còn rất dễ phối đồ khi đi chơi, đi dạo phố, hay đi ra ngoài tụ họp cùng bạn bè', 
+'dep.jpg', 2, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Dép tổ ong nam nữ huyền thoại siêu rẻ siêu êm màu trắng', 10000, 
+ N'Mang rất êm chân, bền bỉ và dẻo dai.', 
+'nam4.jpg', 3, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Dép Văn Hiến Chi Bang màu đỏ', 225000, 
+ N'Chất liệu: Quai TPR , Đế Phylon
+Thiết kế:
+Đế Phylon siêu bền
+Dép siêu nhẹ
+Tặng kèm Box sang trọng', 
+'nam2.jpg', 3, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Dép Văn Hiến Chi Bang màu đen', 225000, 
+ N'Chất liệu: Quai TPR , Đế Phylon
+Thiết kế:
+Đế Phylon siêu bền
+Dép siêu nhẹ
+Tặng kèm Box sang trọng', 
+'nam1.jpg', 3, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Dép quai ngang đính ngọc', 120000, 
+ N'dép siêu cá tính đây nàng ơi , Hễ nhìn là auto đổ gục, lên chân lại cứ bị đẹp như thế này thì sao mà kiềm chế được chứ ; Tone màu Đen cực yêu, phối với mọi item đều xinh xắn hết nấc', 
+'Sandal9.jpg', 1, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Dép quai ngang chiếc lá', 150000, 
+ N'Siêu phẩm dép quai ngang cực hot với quai họa tiết độc lạ kết hợp màu trắng hot trend nhất hiện nay.
+ Khả năng mix & match siêu đỉnh : phối gì cũng đẹp, cũng cá tính hết nấc
+"Trợ thủ đắc lực" của nàng trong mọi outfits là đây chứ đâu', 
+'Sandal8.jpg', 1, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Sandal đỏ ngang', 150000, 
+ N'Với thiết kế vô cùng đơn giản nhưng vô cùng tinh tế luôn đem lại sự sang trọng và lịch thiệp , kiểu dáng trẻ trung năng động, đi làm , đi chơi , dạo phố đều đẹp, bảo vệ đôi chân khi di chuyển', 
+'11.jpg', 1, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Sandal đế xuồng', 250000, 
+ N'Với thiết kế vô cùng đơn giản nhưng vô cùng tinh tế luôn đem lại sự sang trọng và lịch thiệp , kiểu dáng trẻ trung năng động, đi làm , đi chơi , dạo phố đều đẹp, bảo vệ đôi chân khi di chuyển', 
+'Sandal7.jpg', 4, 4, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Sandal chéo', 150000, 
+ N'Thiết kế thoáng mát làm cho người đi cảm thấy thoải mái vào những ngày hè nóng bức; sản phẩm còn phù hợp cho những chuyến đi chơi biển, lội sông suối, không lo bị ướt giày ;  ngoài ra sản phẩm còn rất dễ phối đồ khi đi chơi, đi dạo phố, hay đi ra ngoài tụ họp cùng bạn bè', 
+'Sandal6.jpg', 1, 7, '9/15/2020', 40)
+
+INSERT Giay(TenGiay, Giaban, Mota,Anhbia, MaCD, MaNPP, Ngaycapnhat, Soluongton) 
+VALUES ( N'Sandal xỏ ngón quai chéo', 150000, 
+ N'Chất liệu bềnh đẹp, kiểu dáng hợp thời trang, dễ dàng kết hợp với nhiều loại trang phục khác nhau, có 2 màu cho bạn chọn là hồng và đem', 
+'Sandal5.jpg', 1, 7, '9/15/2020', 40)
 select * from Giay
 
 /******		LamGiay ******/
